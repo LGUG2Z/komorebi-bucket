@@ -1,0 +1,20 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LGUG2Z/komorebi/releases/download/v0.1.0/komorebi-0.1.0-x86_64-pc-windows-msvc.zip",
+            "bin": [
+                "komorebi.exe",
+                "komorebic.exe"
+            ],
+            "hash": "87d2a66c2068cf9deb61254c93f1efaf9d32bc56f6a647711775d76cbe3739fc"
+        }
+    },
+    "homepage": "https://github.com/LGUG2Z/komorebi",
+    "license": "MIT",
+    "description": "A tiling window manager for Windows",
+    "post_install": [
+        "Write-Host \"Run 'cp $original_dir\\komorebi.sample.ahk $Env:UserProfile\\komorebi.ahk' to get started with the sample configuration\"",
+        "Write-Host \"Once you have a configuration file in place, you can run 'komorebic start' to start the window manager\""
+    ]
+}
