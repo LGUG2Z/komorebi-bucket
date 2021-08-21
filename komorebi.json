@@ -1,13 +1,13 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LGUG2Z/komorebi/releases/download/v0.1.1/komorebi-0.1.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/LGUG2Z/komorebi/releases/download/v0.1.2/komorebi-0.1.2-x86_64-pc-windows-msvc.zip",
             "bin": [
                 "komorebi.exe",
                 "komorebic.exe"
             ],
-            "hash": "98d30c1220a803d9b9a98e5506ad7bb641871e7035edf86f0c432b6dd3b16fff"
+            "hash": "157cef5b8ebce92eac4f38b46a3dfb0dc4bb7aad4c68cf62e8c46e84de4c4bc5"
         }
     },
     "homepage": "https://github.com/LGUG2Z/komorebi",
